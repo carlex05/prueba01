@@ -25,7 +25,7 @@ public class DataPresentationService {
                     .append(travelsByDay.get(i))
                     .append("\n");
         }
-        return sb.toString();
+        return sb.toString().trim();
     }
     
 }
